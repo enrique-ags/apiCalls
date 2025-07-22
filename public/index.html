@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llamador de API con Node.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Llamador de API</h1>
+
+        <label for="apiUrl">URL de la API:</label>
+        <textarea id="apiUrl" rows="3" placeholder="Ej: https://jsonplaceholder.typicode.com/todos/1"></textarea>
+
+        <button id="callApiBtn">Llamar API</button>
+
+        <label for="apiResponse">Respuesta de la API (JSON):</label>
+        <textarea id="apiResponse" rows="15" readonly></textarea>
+
+        <div class="action-buttons">
+            <button id="copyResponseBtn">Copiar Respuesta</button>
+            <button id="saveResponseBtn">Guardar como JSON</button>
+        </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
